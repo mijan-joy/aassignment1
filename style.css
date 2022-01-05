@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.wraper{
+    width: 80%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    
+}
+.ccontent{
+    width: 20%;
+}
+.content p{
+    font-size: 16px;
+    text-align: justify;
+}
+.about h1{
+    font-size: 40px;
+    font-weight: 900;
+    border-left: 6px solid orangered;
+    padding-left: 10px;    
+}
+ h1 span{
+    color: orangered;
+}
+
+ img{
+     float: left;
+    width: 400px;
+    margin-top: -50px;
+    padding-left: 200px;
+}
+button{
+    padding: 15px 30px;
+    border: 0;
+    background-color: orangered;
+    border-radius: 10px;
+}
+button a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.mission{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.all-mission{
+    display: flex;
+    justify-content: center;
+  
+}
+.all-mission p{
+    text-align: justify;
+}
+.mission-1{
+    width: 30%;
+    background-color: rgba(103, 100, 248, 0.384);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.mission-1 img{
+    width: 150px;
+    margin-left: -130px;
+    padding-top: 40px;
+   
+}
+.mission-2{
+    width: 30%;
+    background-color: rgba(243, 92, 92, 0.384);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.mission-2 img{
+    width: 150px;
+    margin-left: -140px;
+    padding-top: 40px;
+}
+.mission-3{
+    width: 30%;
+    background-color: rgba(243, 220, 92, 0.384);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.mission-3 img{
+    width: 150px;
+    margin-left: -140px;
+    padding-top: 40px;
+}
+.section-develop{
+    width: 80%;
+    margin: 0 auto;
+}
+#dev-container{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.photo-code{
+  margin-right: 200px;
+
+}
+
+.description{
+   
+}
