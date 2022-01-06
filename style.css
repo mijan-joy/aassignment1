@@ -98,20 +98,81 @@ button a{
     margin-left: -140px;
     padding-top: 40px;
 }
-.section-develop{
-    width: 80%;
-    margin: 0 auto;
+#devlop-area{
+    width: 100%;
 }
-#dev-container{
+#img-1{
+  
+    margin-top: 100px;
+    margin-left: -100px;
+}
+#img-2{
+  
+    margin-top: 100px;
+    margin-left: 100px;   
+}
+
+.dream-area img{
+    width: 90%;
+   height: 90%;
+  
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#global{
+    width: 80%;
     display: flex;
     margin-top: 100px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#global .content{
+    width: 40%;
+    margin: 0 30px;
+}
+#content-1{
+    margin-right: -100px;
+}
+#content-1 .content img{
+    margin-left: 10px;
+}
+
+.app-build{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.all-app{
+    display: flex;
+    justify-content: center;
+  
+}
+.all-app p{
+    text-align: justify;
+}
+.app-1{
     
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
 }
-.photo-code{
-  margin-right: 200px;
-
-}
-
-.description{
+.app-1 img{
+    width: 200px;
+    padding-top: 40px;
    
+}
+footer{
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    padding-top: 10px;
+}
+footer h1{
+    font-style: italic;
 }
