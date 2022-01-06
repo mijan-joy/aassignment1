@@ -126,11 +126,12 @@ button a{
 #global{
     width: 80%;
     display: flex;
-    margin-top: 100px;
+    margin: 100px 0px;
     justify-content: center;
     padding-left: 10px;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
+    
 }
 #global .content{
     width: 40%;
@@ -145,8 +146,9 @@ button a{
 
 .app-build{
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: center;
+    padding-bottom: 20px;
 }
 .all-app{
     display: flex;
@@ -157,21 +159,30 @@ button a{
     text-align: justify;
 }
 .app-1{
-    
+    justify-content: center;
     width: 40%;
     padding: 10px;
     margin: 10px;
 }
+#app-1{
+    background-image: url(./images/shapes/shape-6.png);
+    background-size: cover;
+    background-position: center;
+}
 .app-1 img{
+    height: auto;
     width: 200px;
     padding-top: 40px;
+    align-items: center;
+    margin-left: -80px;
    
 }
 footer{
+    
     text-align: center;
     color: #fff;
     background-color: black;
-    padding-top: 10px;
+    padding: 10px;
 }
 footer h1{
     font-style: italic;
